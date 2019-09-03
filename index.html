@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Laboratory Shop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="main-header">
@@ -24,7 +25,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-left">
             <img src="assets/img/glass-cylinder.jpg" alt="Glass Cylinder">
             <div>
                 <h3>instrument2</h3>
@@ -35,7 +36,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-right">
             <img src="assets/img/petri-dishes.jpg" alt="Petri Dishes">
             <div>
                 <h3>instrument3</h3>
@@ -46,7 +47,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-left">
             <img src="assets/img/erlenmeyer-flask.jpg" alt="Erlenmeyer Flask">
             <div>
                 <h3>instrument4</h3>
@@ -57,7 +58,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-right">
             <img src="assets/img/analytical-balance.jpg" alt="Analytical Balance">
             <div>
                 <h3>instrument5</h3>
@@ -69,5 +70,12 @@
             </div>
         </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+    </script>
 </body>
 </html>
