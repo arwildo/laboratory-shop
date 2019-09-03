@@ -1,0 +1,100 @@
+/*-------- Global --------*/
+@font-face {
+	src: url(assets/fonts/CircularStd-Medium.ttf);
+	font-family: CircularStd;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'CirlularStd', sans-serif;
+	font-size: 1.3rem;
+	background: white;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+/*-------- Main --------*/
+.container {
+	max-width: 1100px;
+	margin: auto;
+	overflow: auto;
+	padding: 0 8rem;
+}
+
+.main-header {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem;
+}
+
+.main-header h1 {
+	font: 4rem;
+	margin-bottom: 1rem;
+	line-height: 1.2;
+}
+
+.main-header h1 span {
+	color: #6093df;
+}
+
+.main-header p {
+	font-size: 1.2rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------- Items --------*/
+
+img {
+	width: 100%;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+	background: #f8f8f8f1;
+	margin-bottom: 3rem;
+}
+
+.card h3 {
+	margin-bottom: 2rem;
+}
+
+.card > div {
+	padding: 2rem;
+}
+
+.card:nth-child(even) img {
+	order: 2;
+}
+
+.btn {
+	display: inline-block;
+	background: #333;
+	color: white;
+	padding: 0.8rem 1.8rem;
+	margin-top: 2rem;
+	cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+/*-------- Media Responsive --------*/
+@media (max-width: 800px) {
+	.card {
+		display: block;
+	}
+}
