@@ -108,8 +108,53 @@ img {
 }
 
 /*-------- Media Responsive --------*/
-@media (max-width: 800px) {
+/* 
+	##Device = Tablets, Ipads (landscape)
+	##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.card {
+		display: grid;
+	}
+	.container {
+		padding: 0 4rem;
+	}
+	.card div {
+		font-size: 1.3rem;
+	}
+}
+
+/* 
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 565px) and (max-width: 767px) {
 	.card {
 		display: block;
+	}
+	.container {
+		padding: 0 3rem;
+	}
+	.card div {
+		font-size: 1.2rem;
+	}
+}
+
+/* 
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	##Screen = B/w 320px to 490px
+  */
+
+@media (min-width: 320px) and (max-width: 564px) {
+	.card {
+		display: block;
+	}
+	.container {
+		padding: 0 2rem;
+	}
+	.card div {
+		font-size: 0.9rem;
 	}
 }
