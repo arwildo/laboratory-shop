@@ -34,7 +34,6 @@ div::-webkit-scrollbar-thumb {
 	background-color: #afafaf;
 	border-radius: 5px;
 }
-/*-------- Nav --------*/
 
 /*-------- Main --------*/
 .container {
@@ -61,7 +60,7 @@ div::-webkit-scrollbar-thumb {
 }
 
 .main-header h1 span {
-	color: #6093df;
+	color: #5ebed6;
 }
 
 .main-header p {
