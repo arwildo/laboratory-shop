@@ -11,7 +11,7 @@ A simple landing page for an online shop website with interactive on scroll anim
 * HTML
 * CSS
 * JavaScript
-* AOS library
+* [AOS library](https://github.com/michalsnik/aos)
 
 ## Contributors
 
