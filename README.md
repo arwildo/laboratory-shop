@@ -4,7 +4,7 @@ A simple landing page for an online shop website with interactive on scroll anim
 :microscope: [Laboratory Shop](https://www.arwildo.space/laboratory-shop)
 
 ## Preview
-![alt text](https://raw.githubusercontent.com/arwildo/laboratory-shop/master/previews/laboratory-shop.png "Website Preview")
+![alt text](https://www.arwildo.space/assets/images/laboratory-shop.png "Website Preview")
 
 ## Built With
 
