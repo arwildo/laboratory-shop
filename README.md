@@ -3,8 +3,11 @@ A simple landing page for an online shop website with interactive on scroll anim
 
 :microscope: [Laboratory Shop](https://www.arwildo.space/laboratory-shop)
 
+
 ## Preview
 ![alt text](https://www.arwildo.space/assets/images/laboratory-shop.png "Website Preview")
+
+
 
 ## Built With
 
@@ -13,6 +16,9 @@ A simple landing page for an online shop website with interactive on scroll anim
 * JavaScript
 * [AOS library](https://github.com/michalsnik/aos)
 
-## Contributors
 
-* **Arwildo** - *Initial work* - [arwildo.space](http://www.arwildo.space/)
+## Support
+
+If you like what you see, feel free to buy me a coffee.
+
+<a href="https://www.buymeacoffee.com/Arwildo " target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
