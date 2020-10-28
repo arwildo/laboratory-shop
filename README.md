@@ -1,11 +1,11 @@
 # laboratory-shop
 A simple landing page for an online shop website with interactive on scroll animation.
 
-:microscope: [Laboratory Shop](https://arwildo.github.io/laboratory-shop)
+:microscope: [Laboratory Shop](https://arwildo.com/laboratory-shop)
 
 
 ## Preview
-![alt text](https://arwildo.github.io/assets/images/laboratory-shop.png "Website Preview")
+![alt text](https://arwildo.com/assets/images/laboratory-shop.png "Website Preview")
 
 
 
